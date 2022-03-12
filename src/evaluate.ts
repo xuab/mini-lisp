@@ -49,8 +49,7 @@ const evaluateList = (input: Array<Atoms>, context: Context) => {
   }
   const list = input.map((x) => evaluate(x, context))
   return typeof list[0] === 'function'
-    // @ts-ignore
-    ? list[0].apply(undefined, list.slice(1))
+    ? list[0].apply(undefined, list.slice(1) as any)
     : list
 }
 
