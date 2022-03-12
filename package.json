@@ -1,0 +1,13 @@
+{
+  "name": "mini-lisp",
+  "description": "A mini Lisp interpreter in TypeScript",
+  "author": "Stéphane Clairbaux <stephane@clairbaux.com>",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "ts-node src/repl.ts"
+  },
+  "devDependencies": {
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2"
+  }
+}
