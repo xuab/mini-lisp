@@ -4,7 +4,7 @@
 
 A mini Lisp interpreter in TypeScript.
 
-## Repl
+## REPL
 
 ```
 $ npm start
